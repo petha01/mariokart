@@ -32,5 +32,4 @@ def stop():
     vesc.connect()
     vesc.set_rpm(0) 
 
-
-
+move_forward(3000, 3)
